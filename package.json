@@ -23,6 +23,7 @@
     "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "sass": "^1.83.0",
     "@commitlint/cli": "^19.6.1",
     "@commitlint/config-conventional": "^19.6.0",
     "@eslint/js": "^10.0.0",

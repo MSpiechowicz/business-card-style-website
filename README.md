@@ -22,7 +22,28 @@ yarn dev
 
 ## Configuration
 
-In case you would like to modify the default variables, you can do so by updating the .env file. This includes the theme color, motto, name and the social media links.
+In case you would like to modify the default variables, you can do so by updating the .env file. Below is a list of available variables.
+
+| Variable                                | Description                             |
+|-----------------------------------------|-----------------------------------------|
+| VITE_APP_TITLE                          | The title of the website                |
+| VITE_APP_ICON                           | The path to the icon of the website     |
+| VITE_APP_BACKGROUND_COLOR               | The background color of the website     |
+| VITE_APP_BUSINESS_CARD_PRIMARY_COLOR    | The primary color of the business card  |
+| VITE_APP_BUSINESS_CARD_SECONDARY_COLOR  | The secondary color of the business card|
+| VITE_APP_BUSINESS_CARD_TITLE            | The title of the business card          |
+| VITE_APP_BUSINESS_CARD_SUB_TITLE        | The subtitle of the business card       |
+| VITE_APP_BUSINESS_CARD_MOTTO            | The motto of the business card          |
+| VITE_APP_BUSINESS_CARD_VERSION          | The version of the business card        |
+| VITE_APP_BUSINESS_CARD_LINKEDIN         | The LinkedIn link of the business card  |
+| VITE_APP_BUSINESS_CARD_LINKEDIN_ICON    | The LinkedIn icon of the business card  |
+| VITE_APP_BUSINESS_CARD_GITHUB           | The GitHub link of the business card    |
+| VITE_APP_BUSINESS_CARD_GITHUB_ICON      | The GitHub icon of the business card    |
+| VITE_APP_BUSINESS_CARD_EMAIL            | The email of the business card          |
+| VITE_APP_BUSINESS_CARD_EMAIL_ICON       | The email icon of the business card     |
+| VITE_APP_BUSINESS_CARD_PHONE            | The phone number of the business card   |
+| VITE_APP_BUSINESS_CARD_PHONE_ICON       | The phone icon of the business card     |
+| VITE_APP_BUSINESS_CARD_IMAGE            | The image of the business card          |
 
 ### React + Vite
 
