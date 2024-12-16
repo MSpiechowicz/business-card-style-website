@@ -43,14 +43,9 @@
     "semantic-release-monorepo": "^8.0.2",
     "vite": "^6.0.3"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
-  },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "commit-msg": "commitlint -e",
       "pre-push": "sh scripts/husky-pre-push.sh"
     }
   },
