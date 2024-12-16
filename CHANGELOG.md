@@ -1,3 +1,11 @@
+## [1.4.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.3.0...v1.4.0) (2024-12-16)
+
+### Features
+
+* adding first draft of the business card v1 - desktop version ([976807e](https://github.com/MSpiechowicz/business-card-style-website/commit/976807eb8d2d66bdf40c881b2dd3229b3dce46e4))
+* merge branch 'dev' ([259df7b](https://github.com/MSpiechowicz/business-card-style-website/commit/259df7b4f103faf062d58ae4d966451513683e1d))
+* update business card configuration and refactor related components ([941c993](https://github.com/MSpiechowicz/business-card-style-website/commit/941c99369ebae30c9f4fd697f78f22bbd5709e20))
+
 ## [1.3.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.2.0...v1.3.0) (2024-12-16)
 
 ### Features
