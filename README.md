@@ -6,7 +6,7 @@ This is a basic business card website that you can use as a template for your pe
 
 To install the project, clone the repository and run the following command:
 
-```
+```bash
 yarn install
 ```
 
@@ -16,7 +16,7 @@ Project is following the [Conventional Commits](https://www.conventionalcommits.
 
 To start the development server, run the following command:
 
-```
+```bash
 yarn dev
 ```
 
