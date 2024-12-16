@@ -22,27 +22,28 @@ yarn dev
 
 ## Configuration
 
-In case you would like to modify the default variables, you can do so by updating the .env file. This includes:
+In case you would like to modify the default variables, you can do so by updating the .env file. Below is a list of available variables.
 
-`VITE_APP_TITLE` - the title of the website
-`VITE_APP_ICON` - the path to the icon of the website
-`VITE_APP_BACKGROUND_COLOR` - the background color of the website
-
-`VITE_APP_BUSINESS_CARD_PRIMARY_COLOR` - the primary color of the business card
-`VITE_APP_BUSINESS_CARD_SECONDARY_COLOR` - the secondary color of the business card
-`VITE_APP_BUSINESS_CARD_TITLE` - the title of the business card
-`VITE_APP_BUSINESS_CARD_SUB_TITLE` - the subtitle of the business card
-`VITE_APP_BUSINESS_CARD_MOTTO` - the motto of the business card
-`VITE_APP_BUSINESS_CARD_VERSION` - the version of the business card
-`VITE_APP_BUSINESS_CARD_LINKEDIN` - the LinkedIn link of the business card
-`VITE_APP_BUSINESS_CARD_LINKEDIN_ICON` - the LinkedIn icon of the business card
-`VITE_APP_BUSINESS_CARD_GITHUB` - the GitHub link of the business card
-`VITE_APP_BUSINESS_CARD_GITHUB_ICON` - the GitHub icon of the business card
-`VITE_APP_BUSINESS_CARD_EMAIL` - the email of the business card
-`VITE_APP_BUSINESS_CARD_EMAIL_ICON` - the email icon of the business card
-`VITE_APP_BUSINESS_CARD_PHONE` - the phone number of the business card
-`VITE_APP_BUSINESS_CARD_PHONE_ICON` - the phone icon of the business card
-`VITE_APP_BUSINESS_CARD_IMAGE` - the image of the business card
+| Variable                                | Description                             |
+|-----------------------------------------|-----------------------------------------|
+| VITE_APP_TITLE                          | The title of the website                |
+| VITE_APP_ICON                           | The path to the icon of the website     |
+| VITE_APP_BACKGROUND_COLOR               | The background color of the website     |
+| VITE_APP_BUSINESS_CARD_PRIMARY_COLOR    | The primary color of the business card  |
+| VITE_APP_BUSINESS_CARD_SECONDARY_COLOR  | The secondary color of the business card|
+| VITE_APP_BUSINESS_CARD_TITLE            | The title of the business card          |
+| VITE_APP_BUSINESS_CARD_SUB_TITLE        | The subtitle of the business card       |
+| VITE_APP_BUSINESS_CARD_MOTTO            | The motto of the business card          |
+| VITE_APP_BUSINESS_CARD_VERSION          | The version of the business card        |
+| VITE_APP_BUSINESS_CARD_LINKEDIN         | The LinkedIn link of the business card  |
+| VITE_APP_BUSINESS_CARD_LINKEDIN_ICON    | The LinkedIn icon of the business card  |
+| VITE_APP_BUSINESS_CARD_GITHUB           | The GitHub link of the business card    |
+| VITE_APP_BUSINESS_CARD_GITHUB_ICON      | The GitHub icon of the business card    |
+| VITE_APP_BUSINESS_CARD_EMAIL            | The email of the business card          |
+| VITE_APP_BUSINESS_CARD_EMAIL_ICON       | The email icon of the business card     |
+| VITE_APP_BUSINESS_CARD_PHONE            | The phone number of the business card   |
+| VITE_APP_BUSINESS_CARD_PHONE_ICON       | The phone icon of the business card     |
+| VITE_APP_BUSINESS_CARD_IMAGE            | The image of the business card          |
 
 ### React + Vite
 
