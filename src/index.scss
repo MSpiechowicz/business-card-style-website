@@ -1,0 +1,25 @@
+@use './styles/reset.scss';
+@use './styles/app.scss';
+@use './styles/app_business-card-v1.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  font-family: Nunito, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  height: 100%;
+  width: 100%;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
