@@ -13,7 +13,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "release": "yarn semantic-release",
+    "release": "yarn semantic-release --no-ci",
     "postinstall": "command -v husky >/dev/null && husky . || exit 0"
   },
   "dependencies": {
