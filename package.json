@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "release": "yarn semantic-release --no-ci",
-    "postinstall": "command -v husky >/dev/null && husky . && sh scripts/update-husky-pre-push-file.sh || exit 0"
+    "postinstall": "command -v husky >/dev/null && husky . || exit 0",
+    "prepare": "husky"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -49,7 +50,8 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-push": "sh scripts/husky-pre-push.sh"
     }
   },
   "packageManager": "yarn@1.22.21+sha1.1959a18351b811cdeedbd484a8f86c3cc3bbaf72"
