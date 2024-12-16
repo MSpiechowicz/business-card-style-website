@@ -1,3 +1,39 @@
+## [1.2.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.1.0...v1.2.0) (2024-12-16)
+
+### Features
+
+* merge changes ([a4bdaff](https://github.com/MSpiechowicz/business-card-style-website/commit/a4bdaff062e753c75523be44e5560e914fe2fa33))
+* update package json ([f18ec35](https://github.com/MSpiechowicz/business-card-style-website/commit/f18ec355e201fdf90cba697bced156c9269956d3))
+* update the husky scripts ([8a6b423](https://github.com/MSpiechowicz/business-card-style-website/commit/8a6b423d33e43a686b647d896044b953bd50d1da))
+
+### Bug Fixes
+
+* update README for installation commands and remove husky pre-push script ([963bf1b](https://github.com/MSpiechowicz/business-card-style-website/commit/963bf1b57765cc9a736a89302d69e95d4ed3e259))
+
+## [1.2.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.1.0...v1.2.0) (2024-12-16)
+
+### Features
+
+* merge changes ([a4bdaff](https://github.com/MSpiechowicz/business-card-style-website/commit/a4bdaff062e753c75523be44e5560e914fe2fa33))
+* update package json ([f18ec35](https://github.com/MSpiechowicz/business-card-style-website/commit/f18ec355e201fdf90cba697bced156c9269956d3))
+* update the husky scripts ([8a6b423](https://github.com/MSpiechowicz/business-card-style-website/commit/8a6b423d33e43a686b647d896044b953bd50d1da))
+
+### Bug Fixes
+
+* update README for installation commands and remove husky pre-push script ([963bf1b](https://github.com/MSpiechowicz/business-card-style-website/commit/963bf1b57765cc9a736a89302d69e95d4ed3e259))
+
+## [1.2.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.1.0...v1.2.0) (2024-12-16)
+
+### Features
+
+* merge changes ([a4bdaff](https://github.com/MSpiechowicz/business-card-style-website/commit/a4bdaff062e753c75523be44e5560e914fe2fa33))
+* update package json ([f18ec35](https://github.com/MSpiechowicz/business-card-style-website/commit/f18ec355e201fdf90cba697bced156c9269956d3))
+* update the husky scripts ([8a6b423](https://github.com/MSpiechowicz/business-card-style-website/commit/8a6b423d33e43a686b647d896044b953bd50d1da))
+
+### Bug Fixes
+
+* update README for installation commands and remove husky pre-push script ([963bf1b](https://github.com/MSpiechowicz/business-card-style-website/commit/963bf1b57765cc9a736a89302d69e95d4ed3e259))
+
 <<<<<<< HEAD
 ## [1.1.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.0.0...v1.1.0) (2024-12-16)
 
