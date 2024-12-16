@@ -1,7 +1,7 @@
 {
   "name": "business-card-style-website",
   "private": true,
-  "version": "1.0.0-dev.1",
+  "version": "1.0.0-dev.2",
   "author": {
     "name": "Maciej Spiechowicz",
     "email": "maciej.spiechowicz@gmail.com"
@@ -13,7 +13,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "release": "yarn semantic-release --no-ci",
+    "release": "yarn semantic-release",
+    "release--no-ci": "yarn semantic-release --no-ci",
     "postinstall": "command -v husky >/dev/null && husky . && sh scripts/husky-commit-msg-update.sh || exit 0",
     "prepare": "husky"
   },
