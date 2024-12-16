@@ -14,6 +14,6 @@ export function getBusinessCardMotto() {
   return import.meta.env.VITE_APP_BUSINESS_CARD_MOTTO || "Business Card Motto";
 }
 
-export function getBusinessCardMiddleDecoration() {
-  return import.meta.env.VITE_APP_BUSINESS_CARD_MIDDLE_DECORATION || "src/assets/world.svg";
+export function getBusinessCardImage() {
+  return import.meta.env.VITE_APP_BUSINESS_CARD_IMAGE || "src/assets/world.svg";
 }

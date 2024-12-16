@@ -1,5 +1,5 @@
 import {
-  getBusinessCardMiddleDecoration,
+  getBusinessCardImage,
   getBusinessCardMotto,
   getBusinessCardPrimaryColor,
   getBusinessCardSubTitle,
@@ -10,7 +10,7 @@ const businessCardPrimaryColor = getBusinessCardPrimaryColor();
 const businessCardTitle = getBusinessCardTitle();
 const businessCardSubTitle = getBusinessCardSubTitle();
 const businessCardMotto = getBusinessCardMotto();
-const businessCardMiddleDecoration = getBusinessCardMiddleDecoration();
+const businessCardImage = getBusinessCardImage();
 
 function AppBusinessCardV1() {
   return (
@@ -35,8 +35,8 @@ function AppBusinessCardV1() {
         <h2 aria-label="Business Card Sub Title">{businessCardSubTitle}</h2>
         <p aria-label="Business Card Motto">{businessCardMotto}</p>
       </div>
-      <div className="app__business-card__middle-decoration" aria-hidden="true">
-        <img src={businessCardMiddleDecoration} alt="Business Card Middle Decoration" />
+      <div className="app__business-card__image" aria-hidden="true">
+        <img src={businessCardImage} alt="Business Card Middle Decoration" />
       </div>
       <div className="app__business-card__bottom-decoration" role="separator" aria-hidden="true">
         <hr
