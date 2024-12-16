@@ -6,7 +6,7 @@ mkdir -p .husky
 # Write the pre-push hook script
 cat > .husky/_/pre-push << 'EOF'
 #!/usr/bin/env sh
-. "$(dirname "$0")/h"
+. "$(dirname "$0")/_/husky.sh"
 
 # Run semantic-release
 yarn release
