@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.2.0...v1.3.0) (2024-12-16)
+
+### Features
+
+* extend commitlint configuration to allow longer body lines ([e67b939](https://github.com/MSpiechowicz/business-card-style-website/commit/e67b9390cf4936e571948049428b9c2eb7d0bde0))
+* merge branch 'dev' ([6022329](https://github.com/MSpiechowicz/business-card-style-website/commit/6022329112e6d282613d9b0181fbe86187b25175))
+
 ## [1.2.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.1.0...v1.2.0) (2024-12-16)
 
 ### Features
