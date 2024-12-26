@@ -7,7 +7,7 @@ const businessCardContacts = {
   email: import.meta.env.VITE_APP_BUSINESS_CARD_CONTACT_EMAIL || undefined,
 };
 
-const mainAssetsPath = getMainAssetsPath();
+const mainAssetsPath = `${getMainAssetsPath()}/v1`;
 
 const items = [
   {
