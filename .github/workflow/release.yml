@@ -1,0 +1,12 @@
+name: Release new version
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: yarn release
