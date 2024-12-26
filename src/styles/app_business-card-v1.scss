@@ -26,7 +26,6 @@
     h1 {
       font-size: 46px;
       font-weight: 700;
-      margin-top: -1rem;
     }
 
     h2 {
@@ -34,26 +33,15 @@
       font-weight: 400;
       text-decoration: underline;
       text-underline-offset: 4px;
-      margin-top: -.4rem;
     }
 
     p {
       font-size: 16px;
       font-weight: 400;
-      margin-top: 2rem;
+      margin-top: 2.5rem;
       text-align: center;
       font-style: italic;
       max-width: 60ch;
-    }
-  }
-}
-
-@media (min-width: 800px) {
-  .app__business-card__v1 {
-    &__content {
-      h2 {
-        margin-top: .15rem;
-      }
     }
   }
 }
@@ -69,12 +57,10 @@
 
       h2 {
         font-size: 24px;
-        margin-top: .10rem;
       }
 
       p {
         font-size: 14px;
-        margin-top: 2rem;
       }
     }
   }
@@ -89,12 +75,10 @@
 
       h2 {
         font-size: 1.25rem;
-        margin-top: 0.15rem;
       }
 
       p {
         font-size: 0.85rem;
-        margin-top: 2rem;
       }
     }
   }
