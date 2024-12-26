@@ -1,3 +1,9 @@
+## [1.6.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.5.0...v1.6.0) (2024-12-26)
+
+### Features
+
+* update asset paths and migrate SVG files to public directory ([cf11649](https://github.com/MSpiechowicz/business-card-style-website/commit/cf11649387f28d0257b57600d0dbfc3997bcba56))
+
 ## [1.5.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.4.0...v1.5.0) (2024-12-26)
 
 ### Features
