@@ -1,51 +1,24 @@
-import {
-  getBusinessCardImage,
-  getBusinessCardMotto,
-  getBusinessCardPrimaryColor,
-  getBusinessCardSubTitle,
-  getBusinessCardTitle,
-} from "./utils/getBusinessCardEnvVariables";
-
-const businessCardPrimaryColor = getBusinessCardPrimaryColor();
-const businessCardTitle = getBusinessCardTitle();
-const businessCardSubTitle = getBusinessCardSubTitle();
-const businessCardMotto = getBusinessCardMotto();
-const businessCardImage = getBusinessCardImage();
+import AppBusinessCardV1BackgroundImage from "./AppBusinessCardV1BackgroundImage";
+import AppBusinessCardV1Contact from "./AppBusinessCardV1Contact";
+import AppBusinessCardV1Content from "./AppBusinessCardV1Content";
+import AppBusinessCardV1Separator from "./AppBusinessCardV1Separator";
+import BusinessCard from "./objects/v1/BusinessCard";
 
 function AppBusinessCardV1() {
   return (
-    <div className="app__business-card">
-      <div className="app__business-card__top-decoration" role="separator">
-        <hr
-          style={{
-            borderColor: businessCardPrimaryColor,
-          }}
-          aria-hidden="true"
+    <div className="app__business-card__v1__container">
+      <div className="app__business-card__v1">
+        <AppBusinessCardV1Separator primaryColor={BusinessCard.primaryColor} />
+        <AppBusinessCardV1Content
+          primaryColor={BusinessCard.primaryColor}
+          title={BusinessCard.title}
+          subTitle={BusinessCard.subTitle}
+          motto={BusinessCard.motto}
         />
+        <AppBusinessCardV1BackgroundImage backgroundImage={BusinessCard.backgroundImage} />
+        <AppBusinessCardV1Separator primaryColor={BusinessCard.primaryColor} />
       </div>
-      <div className="app__business-card__content" role="main">
-        <h1
-          style={{
-            color: businessCardPrimaryColor,
-          }}
-          aria-label="Business Card Title"
-        >
-          {businessCardTitle}
-        </h1>
-        <h2 aria-label="Business Card Sub Title">{businessCardSubTitle}</h2>
-        <p aria-label="Business Card Motto">{businessCardMotto}</p>
-      </div>
-      <div className="app__business-card__image" aria-hidden="true">
-        <img src={businessCardImage} alt="Business Card Middle Decoration" />
-      </div>
-      <div className="app__business-card__bottom-decoration" role="separator" aria-hidden="true">
-        <hr
-          style={{
-            borderColor: businessCardPrimaryColor,
-          }}
-          aria-hidden="true"
-        />
-      </div>
+      <AppBusinessCardV1Contact primaryColor={BusinessCard.primaryColor} />
     </div>
   );
 }
