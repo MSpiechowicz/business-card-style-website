@@ -11,6 +11,7 @@
   transform: translateY(
     -50%
   );
+  z-index: 10;
 
   &__item {
     background-color: blue;
@@ -40,5 +41,16 @@
         transform: translateX(20%);
       }
     }
+  }
+}
+
+@media (max-width: 700px) {
+  .app__business-card__contact {
+    bottom: -12%;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
   }
 }
