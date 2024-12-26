@@ -1,5 +1,3 @@
-import { getMainAssetsPath } from "../../utils/getMainAssetsPath";
-
 const businessCardContacts = {
   phone: import.meta.env.VITE_APP_BUSINESS_CARD_CONTACT_PHONE || undefined,
   github: import.meta.env.VITE_APP_BUSINESS_CARD_CONTACT_GITHUB || undefined,
@@ -7,7 +5,7 @@ const businessCardContacts = {
   email: import.meta.env.VITE_APP_BUSINESS_CARD_CONTACT_EMAIL || undefined,
 };
 
-const mainAssetsPath = `${getMainAssetsPath()}/v1`;
+const mainAssetsPath = "/v1";
 
 const items = [
   {
