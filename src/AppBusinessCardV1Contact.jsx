@@ -4,19 +4,19 @@ import BusinessCardContacts from "./objects/v1/BusinessCardContacts";
 
 function AppBusinessCardV1Contact({ primaryColor }) {
   return (
-    <div className="app__business-card__contact" role="contentinfo">
+    <div className="app__business-card__v1__contact" role="contentinfo" aria-labelledby="contact-info">
       {BusinessCardContacts?.map((item) => {
         return (
           <div
             key={item.id}
-            className="app__business-card__contact__item"
+            className="app__business-card__v1__contact__item"
             style={{
               backgroundColor: primaryColor,
             }}
           >
-            <a href={item.link} target="_blank" rel="noreferrer">
+            <a href={item.link} target="_blank" rel="noreferrer" aria-label={item.id}>
               <ReactSVG
-                className="app__business-card__contact__item__icon"
+                className="app__business-card__v1__contact__item__icon"
                 src={item.icon}
                 beforeInjection={(svg) => {
                   const selectors = ["path", "rect", "circle"];

@@ -1,7 +1,9 @@
 @use './styles/reset.scss';
 @use './styles/app.scss';
+@use './styles/app_business-card-v1-background-image.scss';
+@use './styles/app_business-card-v1-contact.scss';
+@use './styles/app_business-card-v1-separator.scss';
 @use './styles/app_business-card-v1.scss';
-@use './styles/app-business-card-v1-contact.scss';
 
 html, body {
   margin: 0;
