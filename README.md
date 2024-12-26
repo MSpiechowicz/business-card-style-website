@@ -36,14 +36,18 @@ In case you would like to modify the default variables, you can do so by updatin
 | VITE_APP_BUSINESS_CARD_MOTTO            | The motto of the business card          |
 | VITE_APP_BUSINESS_CARD_VERSION          | The version of the business card        |
 | VITE_APP_BUSINESS_CARD_LINKEDIN         | The LinkedIn link of the business card  |
-| VITE_APP_BUSINESS_CARD_LINKEDIN_ICON    | The LinkedIn icon of the business card  |
 | VITE_APP_BUSINESS_CARD_GITHUB           | The GitHub link of the business card    |
-| VITE_APP_BUSINESS_CARD_GITHUB_ICON      | The GitHub icon of the business card    |
 | VITE_APP_BUSINESS_CARD_EMAIL            | The email of the business card          |
-| VITE_APP_BUSINESS_CARD_EMAIL_ICON       | The email icon of the business card     |
 | VITE_APP_BUSINESS_CARD_PHONE            | The phone number of the business card   |
-| VITE_APP_BUSINESS_CARD_PHONE_ICON       | The phone icon of the business card     |
-| VITE_APP_BUSINESS_CARD_IMAGE            | The image of the business card          |
+
+In case you would like to modify the default assets for the corresponding version of the Business Card, you have to go into the `public` folder and replace the files. It is always best idea to minify the images before replacing them.
+
+🚨🚨🚨
+Currently only **version 1** of the Business Card is available. More will come in the nearest future.
+
+### Github Actions
+
+The project is using Github Actions for CI/CD. The workflow is triggered on every push to the main branch. The workflow is defined in the `.github/workflows/release.yml` file.
 
 ### React + Vite
 
