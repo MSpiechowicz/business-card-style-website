@@ -1,6 +1,4 @@
-import { getMainAssetsPath } from "../../utils/getMainAssetsPath";
-
-const mainAssetsPath = getMainAssetsPath();
+const mainAssetsPath = "/v1";
 
 const BusinessCard = {
   primaryColor: import.meta.env.VITE_APP_BUSINESS_CARD_PRIMARY_COLOR || "#0D4398",
