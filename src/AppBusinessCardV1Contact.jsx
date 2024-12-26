@@ -4,7 +4,11 @@ import BusinessCardContacts from "./objects/v1/BusinessCardContacts";
 
 function AppBusinessCardV1Contact({ primaryColor }) {
   return (
-    <div className="app__business-card__v1__contact" role="contentinfo" aria-labelledby="contact-info">
+    <div
+      className="app__business-card__v1__contact"
+      role="contentinfo"
+      aria-labelledby="contact-info"
+    >
       {BusinessCardContacts?.map((item) => {
         return (
           <div
