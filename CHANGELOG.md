@@ -1,3 +1,13 @@
+## [1.5.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.4.0...v1.5.0) (2024-12-26)
+
+### Features
+
+* add business card contact functionality and refactor related components ([b900709](https://github.com/MSpiechowicz/business-card-style-website/commit/b9007099da4e813c37c675af02bea9d2bfea8d3c))
+* add business card container styles for improved layout structure ([f92e267](https://github.com/MSpiechowicz/business-card-style-website/commit/f92e26700cb329155cc384f13b5edcf0195515b3))
+* enhance responsive styles for business card layout and contact section ([1d004ab](https://github.com/MSpiechowicz/business-card-style-website/commit/1d004ab5c6e6a52943668c9db544fed776096410))
+* implement contact section for business card with LinkedIn and email icons ([e823df3](https://github.com/MSpiechowicz/business-card-style-website/commit/e823df39036931829a88e24b5d1f22dcb48acdf8))
+* refactor business card component structure and styles for improved organization and responsiveness ([99ac42f](https://github.com/MSpiechowicz/business-card-style-website/commit/99ac42f43e1a382a7b048f3f1b5ff03756609ba4))
+
 ## [1.4.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.3.0...v1.4.0) (2024-12-16)
 
 ### Features
