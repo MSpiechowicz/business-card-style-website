@@ -1,20 +1,17 @@
 import PropTypes from "prop-types";
-import React from "react";
 import { ReactSVG } from "react-svg";
-import { getBusinessCardContactItems } from "./utils/getBusinessCardContactItems";
+import BusinessCardContacts from "./objects/v1/BusinessCardContacts";
 
-const contactItems = getBusinessCardContactItems();
-
-function AppBusinessCardV1Contact({ businessCardPrimaryColor }) {
+function AppBusinessCardV1Contact({ primaryColor }) {
   return (
     <div className="app__business-card__contact" role="contentinfo">
-      {contactItems?.map((item) => {
+      {BusinessCardContacts?.map((item) => {
         return (
           <div
             key={item.id}
             className="app__business-card__contact__item"
             style={{
-              backgroundColor: businessCardPrimaryColor,
+              backgroundColor: primaryColor,
             }}
           >
             <a href={item.link} target="_blank" rel="noreferrer">
@@ -26,7 +23,7 @@ function AppBusinessCardV1Contact({ businessCardPrimaryColor }) {
 
                   selectors.forEach((selector) => {
                     svg.querySelectorAll(selector).forEach((element) => {
-                      element.setAttribute("fill", businessCardPrimaryColor);
+                      element.setAttribute("fill", primaryColor);
                     });
                   });
                 }}
@@ -40,7 +37,7 @@ function AppBusinessCardV1Contact({ businessCardPrimaryColor }) {
 }
 
 AppBusinessCardV1Contact.propTypes = {
-  businessCardPrimaryColor: PropTypes.string.isRequired,
+  primaryColor: PropTypes.string.isRequired,
 };
 
 export default AppBusinessCardV1Contact;
