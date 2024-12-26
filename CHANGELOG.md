@@ -1,3 +1,12 @@
+## [1.7.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.6.0...v1.7.0) (2024-12-26)
+
+### Features
+
+* add GitHub Actions workflow for automated release process ([b67cfb4](https://github.com/MSpiechowicz/business-card-style-website/commit/b67cfb4415047a7cd9602fa0e5c095a93f657b7d))
+* add yarn install step to release workflow ([601ad3d](https://github.com/MSpiechowicz/business-card-style-website/commit/601ad3d7ad7bc021f7f1a257786338fa2fc3cbef))
+* recreate GitHub Actions workflow for automated release process ([2a086bb](https://github.com/MSpiechowicz/business-card-style-website/commit/2a086bb49816d2cdf4b71fa44ae60c0fef1806fb))
+* update GitHub Actions workflow to checkout main branch before release ([1df5433](https://github.com/MSpiechowicz/business-card-style-website/commit/1df5433b102af7e24c1fac8edfb1875141e874f3))
+
 ## [1.6.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.5.0...v1.6.0) (2024-12-26)
 
 ### Features
