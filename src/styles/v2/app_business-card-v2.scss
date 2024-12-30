@@ -6,3 +6,9 @@
   display: flex;
   flex-direction: row-reverse;
 }
+
+@media (max-width: 600px) {
+  .app__business-card__v2 {
+    width: 100%;
+  }
+}
