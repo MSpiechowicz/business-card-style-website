@@ -22,28 +22,38 @@ yarn dev
 
 ## Configuration
 
-In case you would like to modify the default variables, you can do so by updating the .env file. Below is a list of available variables.
+In case you would like to modify the default variables, you can do so by updating the .env.example file and adjusting it to your needs (remember to remove the *.example* extension inside the filename and remove the github ignore rule or move entire variables to your CI/CD pipeline). Below is a list of available variables.
 
-| Variable                                | Description                             |
-|-----------------------------------------|-----------------------------------------|
-| VITE_APP_TITLE                          | The title of the website                |
-| VITE_APP_ICON                           | The path to the icon of the website     |
-| VITE_APP_BACKGROUND_COLOR               | The background color of the website     |
-| VITE_APP_BUSINESS_CARD_PRIMARY_COLOR    | The primary color of the business card  |
-| VITE_APP_BUSINESS_CARD_SECONDARY_COLOR  | The secondary color of the business card|
-| VITE_APP_BUSINESS_CARD_TITLE            | The title of the business card          |
-| VITE_APP_BUSINESS_CARD_SUB_TITLE        | The subtitle of the business card       |
-| VITE_APP_BUSINESS_CARD_MOTTO            | The motto of the business card          |
-| VITE_APP_BUSINESS_CARD_VERSION          | The version of the business card        |
-| VITE_APP_BUSINESS_CARD_LINKEDIN         | The LinkedIn link of the business card  |
-| VITE_APP_BUSINESS_CARD_GITHUB           | The GitHub link of the business card    |
-| VITE_APP_BUSINESS_CARD_EMAIL            | The email of the business card          |
-| VITE_APP_BUSINESS_CARD_PHONE            | The phone number of the business card   |
+| Variable                                | Description                                                     |
+|-----------------------------------------|-----------------------------------------------------------------|
+| VITE_APP_TITLE                          | The title of the website                                        |
+| VITE_APP_ICON                           | The path to the icon of the website                             |
+| VITE_APP_BACKGROUND_COLOR               | The background color of the website                             |
+| VITE_APP_BUSINESS_CARD_PRIMARY_COLOR    | The primary color of the business card                          |
+| VITE_APP_BUSINESS_CARD_SECONDARY_COLOR  | The secondary color of the business card                        |
+| VITE_APP_BUSINESS_CARD_TITLE            | The title of the business card                                  |
+| VITE_APP_BUSINESS_CARD_SUB_TITLE        | The subtitle of the business card                               |
+| VITE_APP_BUSINESS_CARD_INITIALS         | The initials of the business card                               |
+| VITE_APP_BUSINESS_CARD_MOTTO            | The motto of the business card                                  |
+| VITE_APP_BUSINESS_CARD_VERSION          | The version of the business card (number of the version)        |
+| VITE_APP_BUSINESS_CARD_LINKEDIN         | The LinkedIn link of the business card                          |
+| VITE_APP_BUSINESS_CARD_GITHUB           | The GitHub link of the business card                            |
+| VITE_APP_BUSINESS_CARD_EMAIL            | The email of the business card                                  |
+| VITE_APP_BUSINESS_CARD_PHONE            | The phone number of the business card                           |
 
 In case you would like to modify the default assets for the corresponding version of the Business Card, you have to go into the `public` folder and replace the files. It is always best idea to minify the images before replacing them.
 
-🚨🚨🚨
-Currently only **version 1** of the Business Card is available. More will come in the nearest future.
+## Business Card Versions
+
+Currently available versions of the Business Card are:
+
+- **version 1**
+
+![Business Card Version 1](public/examples/bs_v1.png)
+
+- **version 2**
+
+![Business Card Version 2](public/examples/bs_v2.png)
 
 ### Github Actions
 

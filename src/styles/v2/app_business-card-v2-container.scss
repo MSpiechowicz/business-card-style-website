@@ -1,0 +1,6 @@
+@use '../app_business-card-container.scss';
+
+.app__business-card__v2__container {
+  @extend %app__business-card__container;
+  width: 100%;
+}

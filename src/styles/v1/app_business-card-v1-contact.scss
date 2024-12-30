@@ -46,11 +46,19 @@
 
 @media (max-width: 700px) {
   .app__business-card__v1__contact {
-    bottom: -12%;
+    bottom: -13.4%;
     left: 50%;
     transform: translateX(-50%);
     flex-direction: row;
     justify-content: center;
     align-items: flex-end;
+  }
+}
+
+@media (max-width: 400px) {
+  .app__business-card__v1__contact {
+    &__item {
+      padding: 0.75rem;
+    }
   }
 }

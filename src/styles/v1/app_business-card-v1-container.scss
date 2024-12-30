@@ -1,0 +1,5 @@
+@use '../app_business-card-container.scss';
+
+.app__business-card__v1__container {
+  @extend %app__business-card__container;
+}

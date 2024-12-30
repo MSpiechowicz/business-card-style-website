@@ -1,0 +1,14 @@
+@use '../app_business-card.scss';
+
+.app__business-card__v1 {
+  @extend %app__business-card;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 700px) {
+  .app__business-card__v1 {
+    width: 100%;
+  }
+}
