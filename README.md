@@ -33,6 +33,7 @@ In case you would like to modify the default variables, you can do so by updatin
 | VITE_APP_BUSINESS_CARD_SECONDARY_COLOR  | The secondary color of the business card|
 | VITE_APP_BUSINESS_CARD_TITLE            | The title of the business card          |
 | VITE_APP_BUSINESS_CARD_SUB_TITLE        | The subtitle of the business card       |
+| VITE_APP_BUSINESS_CARD_INITIALS         | The initials of the business card       |
 | VITE_APP_BUSINESS_CARD_MOTTO            | The motto of the business card          |
 | VITE_APP_BUSINESS_CARD_VERSION          | The version of the business card        |
 | VITE_APP_BUSINESS_CARD_LINKEDIN         | The LinkedIn link of the business card  |
