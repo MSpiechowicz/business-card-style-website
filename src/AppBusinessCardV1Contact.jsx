@@ -1,15 +1,18 @@
 import PropTypes from "prop-types";
 import { ReactSVG } from "react-svg";
-import BusinessCardContacts from "./objects/v1/BusinessCardContacts";
+import { BusinessCardContactsAssetsPaths } from "./objects/BusinessCardAssetsPath";
+import { BusinessCardContacts } from "./objects/BusinessCardContacts";
 
 function AppBusinessCardV1Contact({ primaryColor }) {
+  const contacts = new BusinessCardContacts(BusinessCardContactsAssetsPaths.version1);
+
   return (
     <div
       className="app__business-card__v1__contact"
       role="contentinfo"
       aria-labelledby="contact-info"
     >
-      {BusinessCardContacts?.map((item) => {
+      {contacts.getItems().map((item) => {
         return (
           <div
             key={item.id}
