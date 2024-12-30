@@ -8,7 +8,7 @@ export default ({ mode }) => {
     plugins: [react()],
     define: {
       "process.env": env,
-      VITE_APP_TITLE: env.VITE_APP_TITLE,
+      VITE_APP_TITLE: JSON.stringify(env.VITE_APP_TITLE),
       //VITE_APP_ICON: JSON.stringify(process.env.VITE_APP_ICON),
       //VITE_APP_BACKGROUND_COLOR: JSON.stringify(process.env.VITE_APP_BACKGROUND_COLOR),
       //VITE_APP_BUSINESS_CARD_PRIMARY_COLOR: JSON.stringify(
