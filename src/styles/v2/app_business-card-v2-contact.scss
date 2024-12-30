@@ -21,12 +21,12 @@
   }
 
   &__item {
-    width: 20px;
+    width: 18px;
     position: relative;
 
     a {
       position: absolute;
-      top: 0;
+      top: -0.10rem;
       left: 3.1rem;
       color: #ffffff;
       text-decoration: underline;
