@@ -9,6 +9,7 @@ function AppBusinessCardV2Image({ primaryColor, initials }) {
         style={{
           fill: primaryColor,
         }}
+        aria-hidden="true"
       >
         <polygon points="50,1 90,25 90,75 50,99 10,75 10,25" />
         <text x="50%" y="50%" textAnchor="middle" dy=".3em">

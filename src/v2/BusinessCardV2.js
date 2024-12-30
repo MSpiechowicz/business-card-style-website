@@ -1,9 +1,8 @@
-import { BusinessCard } from "../objects/BusinessCard";
-import { BusinessCardContactsAssetsPaths } from "../objects/BusinessCardAssetsPath";
+import { BusinessCard } from "../objects/BusinessCard.js";
 
 class BusinessCardV2 extends BusinessCard {
   constructor() {
-    super(BusinessCardContactsAssetsPaths.v2);
+    super();
   }
 }
 

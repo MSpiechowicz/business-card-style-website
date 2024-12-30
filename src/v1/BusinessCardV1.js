@@ -1,9 +1,11 @@
-import { BusinessCard } from "../objects/BusinessCard";
-import { BusinessCardContactsAssetsPaths } from "../objects/BusinessCardAssetsPath";
+import { BusinessCard } from "../objects/BusinessCard.js";
+import { BusinessCardContactsAssetsPaths } from "../objects/BusinessCardAssetsPath.js";
 
 class BusinessCardV1 extends BusinessCard {
   constructor() {
-    super(BusinessCardContactsAssetsPaths.v1);
+    super();
+
+    this.backgroundImage = `${BusinessCardContactsAssetsPaths.v1}/backgroundImage.svg`;
   }
 }
 

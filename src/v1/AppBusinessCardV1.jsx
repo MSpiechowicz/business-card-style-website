@@ -1,8 +1,8 @@
-import AppBusinessCardV1BackgroundImage from "./AppBusinessCardV1BackgroundImage";
-import AppBusinessCardV1Contact from "./AppBusinessCardV1Contact";
-import AppBusinessCardV1Content from "./AppBusinessCardV1Content";
-import AppBusinessCardV1Separator from "./AppBusinessCardV1Separator";
-import BusinessCardV1 from "./BusinessCardV1";
+import AppBusinessCardV1BackgroundImage from "./AppBusinessCardV1BackgroundImage.jsx";
+import AppBusinessCardV1Contact from "./AppBusinessCardV1Contact.jsx";
+import AppBusinessCardV1Content from "./AppBusinessCardV1Content.jsx";
+import AppBusinessCardV1Separator from "./AppBusinessCardV1Separator.jsx";
+import BusinessCardV1 from "./BusinessCardV1.js";
 
 function AppBusinessCardV1() {
   const BusinessCard = new BusinessCardV1();
@@ -20,7 +20,10 @@ function AppBusinessCardV1() {
         <AppBusinessCardV1BackgroundImage backgroundImage={BusinessCard.backgroundImage} />
         <AppBusinessCardV1Separator primaryColor={BusinessCard.primaryColor} />
       </div>
-      <AppBusinessCardV1Contact primaryColor={BusinessCard.primaryColor} />
+      <AppBusinessCardV1Contact
+        primaryColor={BusinessCard.primaryColor}
+        contactItems={BusinessCard.getContactItems()}
+      />
     </div>
   );
 }

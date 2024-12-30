@@ -1,11 +1,7 @@
 import PropTypes from "prop-types";
 import { ReactSVG } from "react-svg";
-import { BusinessCardContactsAssetsPaths } from "../objects/BusinessCardAssetsPath";
-import { BusinessCardContacts } from "../objects/BusinessCardContacts";
 
-function AppBusinessCardV2Contact({ primaryColor, secondaryColor }) {
-  const contacts = new BusinessCardContacts(BusinessCardContactsAssetsPaths.v2);
-
+function AppBusinessCardV2Contact({ primaryColor, secondaryColor, contactItems }) {
   return (
     <div
       className="app__business-card__v2__contact"
@@ -18,7 +14,7 @@ function AppBusinessCardV2Contact({ primaryColor, secondaryColor }) {
           backgroundColor: primaryColor,
         }}
       >
-        {contacts.getItems().map((item) => {
+        {contactItems?.map((item) => {
           return (
             <div
               key={item.id}
@@ -54,6 +50,14 @@ function AppBusinessCardV2Contact({ primaryColor, secondaryColor }) {
 AppBusinessCardV2Contact.propTypes = {
   primaryColor: PropTypes.string.isRequired,
   secondaryColor: PropTypes.string.isRequired,
+  contactItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      icon: PropTypes.string.isRequired,
+      link: PropTypes.string.isRequired,
+      label: PropTypes.string.isRequired,
+    })
+  ),
 };
 
 export default AppBusinessCardV2Contact;
