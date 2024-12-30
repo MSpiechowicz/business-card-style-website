@@ -1,3 +1,15 @@
+## [1.9.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.8.0...v1.9.0) (2024-12-30)
+
+### Features
+
+* add environment variable definitions for business card configuration in Vite ([34fdf2f](https://github.com/MSpiechowicz/business-card-style-website/commit/34fdf2fb5e25a02dce4555addfe166352b22ff8a))
+* enable logging of business card version and update Vite configuration for environment variable ([96f5906](https://github.com/MSpiechowicz/business-card-style-website/commit/96f5906935a35ea28b893a67833b579fefec51ac))
+* refactor Vite configuration to load environment variables dynamically ([1c44562](https://github.com/MSpiechowicz/business-card-style-website/commit/1c445628b135946824e7a7364fa7c4a64236b976))
+* resolve error when url is not being passed properly ([255ef9e](https://github.com/MSpiechowicz/business-card-style-website/commit/255ef9e6b70daf309c081c9a9e4873cb8af81005))
+* simplify environment variable definitions in Vite configuration ([5334c89](https://github.com/MSpiechowicz/business-card-style-website/commit/5334c892fe1ea6b781de50aeb4d0c9aed00b3ea5))
+* stringify environment variables in Vite configuration ([39bc49b](https://github.com/MSpiechowicz/business-card-style-website/commit/39bc49b0990514ff02f748ed643a95e360d91e81))
+* stringify VITE_APP_TITLE in Vite configuration ([e1391dd](https://github.com/MSpiechowicz/business-card-style-website/commit/e1391dd739aeb451860b4ee09626e550cc941e40))
+
 ## [1.8.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.7.0...v1.8.0) (2024-12-30)
 
 ### Features
