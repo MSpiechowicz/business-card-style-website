@@ -1,13 +1,15 @@
-import AppBusinessCardV1BackgroundImage from "./AppBusinessCardV1BackgroundImage";
-import AppBusinessCardV1Contact from "./AppBusinessCardV1Contact";
-import AppBusinessCardV1Content from "./AppBusinessCardV1Content";
-import AppBusinessCardV1Separator from "./AppBusinessCardV1Separator";
-import BusinessCard from "./objects/v1/BusinessCard";
+import AppBusinessCardV1BackgroundImage from "../v1/AppBusinessCardV1BackgroundImage";
+import AppBusinessCardV1Contact from "../v1/AppBusinessCardV1Contact";
+import AppBusinessCardV1Content from "../v1/AppBusinessCardV1Content";
+import AppBusinessCardV1Separator from "../v1/AppBusinessCardV1Separator";
+import BusinessCardV2 from "./BusinessCardV2";
 
-function AppBusinessCardV1() {
+function AppBusinessCardV2() {
+  const BusinessCard = new BusinessCardV2();
+
   return (
-    <div className="app__business-card__v1__container">
-      <div className="app__business-card__v1">
+    <div className="app__business-card__v2__container">
+      <div className="app__business-card__v2">
         <AppBusinessCardV1Separator primaryColor={BusinessCard.primaryColor} />
         <AppBusinessCardV1Content
           primaryColor={BusinessCard.primaryColor}
@@ -23,4 +25,4 @@ function AppBusinessCardV1() {
   );
 }
 
-export default AppBusinessCardV1;
+export default AppBusinessCardV2;

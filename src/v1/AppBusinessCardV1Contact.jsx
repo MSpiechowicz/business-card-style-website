@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 import { ReactSVG } from "react-svg";
-import { BusinessCardContactsAssetsPaths } from "./objects/BusinessCardAssetsPath";
-import { BusinessCardContacts } from "./objects/BusinessCardContacts";
+import { BusinessCardContactsAssetsPaths } from "../objects/BusinessCardAssetsPath";
+import { BusinessCardContacts } from "../objects/BusinessCardContacts";
 
 function AppBusinessCardV1Contact({ primaryColor }) {
-  const contacts = new BusinessCardContacts(BusinessCardContactsAssetsPaths.version1);
+  const contacts = new BusinessCardContacts(BusinessCardContactsAssetsPaths.v1);
 
   return (
     <div

@@ -1,4 +1,4 @@
 export const BusinessCardContactsAssetsPaths = {
-  version1: "/v1",
-  version2: "/v2",
+  v1: "/v1",
+  v2: "/v2",
 };
