@@ -4,8 +4,6 @@ import AppBusinessCardV2 from "./v2/AppBusinessCardV2";
 
 const businessCardVersion = import.meta.env.VITE_APP_BUSINESS_CARD_VERSION;
 
-console.log('businessCardVersion', businessCardVersion);
-
 function App() {
   const businessCard = useMemo(() => {
     switch (businessCardVersion) {

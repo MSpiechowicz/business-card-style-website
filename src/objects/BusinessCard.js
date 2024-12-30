@@ -32,14 +32,14 @@ export class BusinessCard {
         icon: `${this.assetsPath}/github.svg`,
         link: this.github,
         visible: this.github !== undefined,
-        label: new URL(this.github).origin,
+        label: this.github ? new URL(this.github).origin : undefined,
       },
       {
         id: "linkedIn",
         icon: `${this.assetsPath}/linkedin.svg`,
         link: this.linkedIn,
         visible: this.linkedIn !== undefined,
-        label: new URL(this.linkedIn).origin,
+        label: this.linkedIn ? new URL(this.linkedIn).origin : undefined,
       },
       {
         id: "email",
