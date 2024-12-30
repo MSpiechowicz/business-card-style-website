@@ -1,3 +1,17 @@
+## [1.8.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.7.0...v1.8.0) (2024-12-30)
+
+### Features
+
+* add content styles for version 1 business card and adjust contact positioning ([41be875](https://github.com/MSpiechowicz/business-card-style-website/commit/41be875ca47172d42d8f080c6bf5eeee8cf77530))
+* add responsive styles for version 2 business card container and image ([54c0ebf](https://github.com/MSpiechowicz/business-card-style-website/commit/54c0ebf0c230bf361d815ab41e805bb675176d1c))
+* add styles for versioned business card components and update README with available versions ([ac9c819](https://github.com/MSpiechowicz/business-card-style-website/commit/ac9c8193bba6b7173da70bdff698b8e7053682a4))
+* add version 2 business card components and styles with contact handling ([7f13c0d](https://github.com/MSpiechowicz/business-card-style-website/commit/7f13c0de09031a8480cd157c5c372c159e1143e9))
+* adjust width and positioning for version 2 business card contact items ([b2bba13](https://github.com/MSpiechowicz/business-card-style-website/commit/b2bba13af8b6698c7c5ba0dae38b845e2989234a))
+* implement versioned business card components and styles ([f55a2f7](https://github.com/MSpiechowicz/business-card-style-website/commit/f55a2f726f6f1f6d8249d7f786eaf910cfee1f20))
+* refactor business card contact handling and introduce asset paths ([e20aa91](https://github.com/MSpiechowicz/business-card-style-website/commit/e20aa9114b511e33702e7fbac5fefcf9a9f6135d))
+* refactor BusinessCardContacts ([f1af940](https://github.com/MSpiechowicz/business-card-style-website/commit/f1af940c47dbd9a0eb33dec4c00f66d2d823e20a))
+* update README with business card initials variable and adjust contact/image styles ([509e34f](https://github.com/MSpiechowicz/business-card-style-website/commit/509e34fc3247cc31be091ad8b06f24e30881e98f))
+
 ## [1.7.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.6.0...v1.7.0) (2024-12-26)
 
 ### Features
