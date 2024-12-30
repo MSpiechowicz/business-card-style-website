@@ -22,7 +22,7 @@ yarn dev
 
 ## Configuration
 
-In case you would like to modify the default variables, you can do so by updating the .env file. Below is a list of available variables.
+In case you would like to modify the default variables, you can do so by updating the .env.example file and adjusting it to your needs (remember to remove the *.example* extension inside the filename and remove the github ignore rule or move entire variables to your CI/CD pipeline). Below is a list of available variables.
 
 | Variable                                | Description                             |
 |-----------------------------------------|-----------------------------------------|
