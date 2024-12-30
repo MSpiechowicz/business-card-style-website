@@ -1,8 +1,6 @@
+@use '../app_business-card-container.scss';
+
 .app__business-card__v2__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  position: relative;
-  z-index: 0;
+  @extend %app__business-card__container;
   width: 100%;
 }
