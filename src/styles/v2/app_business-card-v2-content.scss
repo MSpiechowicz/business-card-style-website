@@ -1,0 +1,24 @@
+.app__business-card__v2__content {
+  background-color: #000000cc;
+  height: 100%;
+  width: 300px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    color: #ffffffd8;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,26 +1,34 @@
-import AppBusinessCardV1BackgroundImage from "../v1/AppBusinessCardV1BackgroundImage";
-import AppBusinessCardV1Contact from "../v1/AppBusinessCardV1Contact";
-import AppBusinessCardV1Content from "../v1/AppBusinessCardV1Content";
-import AppBusinessCardV1Separator from "../v1/AppBusinessCardV1Separator";
+import { BusinessCardContactsAssetsPaths } from "../objects/BusinessCardAssetsPath";
+import { BusinessCardContacts } from "../objects/BusinessCardContacts";
+import AppBusinessCardV2Contact from "./AppBusinessCardV2Contact";
+import AppBusinessCardV2Content from "./AppBusinessCardV2Content";
+import AppBusinessCardV2Image from "./AppBusinessCardV2Image";
 import BusinessCardV2 from "./BusinessCardV2";
 
 function AppBusinessCardV2() {
   const BusinessCard = new BusinessCardV2();
+  const Contacts = new BusinessCardContacts(BusinessCardContactsAssetsPaths.v2);
 
   return (
     <div className="app__business-card__v2__container">
       <div className="app__business-card__v2">
-        <AppBusinessCardV1Separator primaryColor={BusinessCard.primaryColor} />
-        <AppBusinessCardV1Content
-          primaryColor={BusinessCard.primaryColor}
+        <AppBusinessCardV2Content
           title={BusinessCard.title}
           subTitle={BusinessCard.subTitle}
-          motto={BusinessCard.motto}
+          phone={Contacts.phone}
+          linkedIn={Contacts.linkedIn}
+          github={Contacts.github}
+          email={Contacts.email}
         />
-        <AppBusinessCardV1BackgroundImage backgroundImage={BusinessCard.backgroundImage} />
-        <AppBusinessCardV1Separator primaryColor={BusinessCard.primaryColor} />
+        <AppBusinessCardV2Contact
+          primaryColor={BusinessCard.primaryColor}
+          secondaryColor={BusinessCard.secondaryColor}
+        />
+        <AppBusinessCardV2Image
+          primaryColor={BusinessCard.primaryColor}
+          initials={BusinessCard.initials}
+        />
       </div>
-      <AppBusinessCardV1Contact primaryColor={BusinessCard.primaryColor} />
     </div>
   );
 }

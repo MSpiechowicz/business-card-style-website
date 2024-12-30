@@ -1,10 +1,18 @@
 @use './styles/reset.scss';
 @use './styles/app.scss';
+
+// V1
 @use './styles/v1/app_business-card-v1-background-image.scss';
 @use './styles/v1/app_business-card-v1-contact.scss';
 @use './styles/v1/app_business-card-v1-container.scss';
 @use './styles/v1/app_business-card-v1-separator.scss';
 @use './styles/v1/app_business-card-v1.scss';
+
+// V2
+@use './styles/v2/app_business-card-v2-contact.scss';
+@use './styles/v2/app_business-card-v2-image.scss';
+@use './styles/v2/app_business-card-v2-content.scss';
+@use './styles/v2/app_business-card-v2.scss';
 
 html, body {
   margin: 0;
