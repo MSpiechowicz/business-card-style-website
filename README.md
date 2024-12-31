@@ -40,6 +40,7 @@ In case you would like to modify the default variables, you can do so by updatin
 | VITE_APP_BUSINESS_CARD_GITHUB           | The GitHub link of the business card                            |
 | VITE_APP_BUSINESS_CARD_EMAIL            | The email of the business card                                  |
 | VITE_APP_BUSINESS_CARD_PHONE            | The phone number of the business card                           |
+| VITE_APP_BUSINESS_CARD_WEBSITE          | The website address of the business card                        |
 
 In case you would like to modify the default assets for the corresponding version of the Business Card, you have to go into the `public` folder and replace the files. It is always best idea to minify the images before replacing them.
 
