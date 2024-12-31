@@ -1,3 +1,13 @@
+## [1.10.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.9.0...v1.10.0) (2024-12-31)
+
+### Features
+
+* add version 3 of the business card with new styles and components ([9669813](https://github.com/MSpiechowicz/business-card-style-website/commit/9669813bd9059273dbacc276fc8f7f2c476bdd76))
+* add website contact option to business card and update related SVGs ([1128c35](https://github.com/MSpiechowicz/business-card-style-website/commit/1128c359bc3173db06ca845bc9e3655670af6579))
+* refactor SVG fill handling in business card components for improved maintainability ([38c37a9](https://github.com/MSpiechowicz/business-card-style-website/commit/38c37a90815abf1f775f85ec872853d55f36e823))
+* remove unused media query styles from business card contact component ([18f2b98](https://github.com/MSpiechowicz/business-card-style-website/commit/18f2b98ab62da74b5aa103fdd3c112216a679324))
+* update README to include version 3 of the business card with new image ([35a70a4](https://github.com/MSpiechowicz/business-card-style-website/commit/35a70a4583c22ad5fed1f27806227df759b35211))
+
 ## [1.9.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.8.0...v1.9.0) (2024-12-30)
 
 ### Features
