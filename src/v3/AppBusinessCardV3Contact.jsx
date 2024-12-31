@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 import { ReactSVG } from "react-svg";
+import { updateFillAttributeWithColor } from "../utils/updateFillAttribute";
 
 function AppBusinessCardV3Contact({ primaryColor, secondaryColor, contactItems, leaf }) {
   return (
@@ -21,28 +22,12 @@ function AppBusinessCardV3Contact({ primaryColor, secondaryColor, contactItems, 
               <ReactSVG
                 className="app__business-card__v3__contact__item__leaf__icon"
                 src={leaf}
-                beforeInjection={(svg) => {
-                  const selectors = ["path", "rect", "circle"];
-
-                  selectors.forEach((selector) => {
-                    svg.querySelectorAll(selector).forEach((element) => {
-                      element.setAttribute("fill", primaryColor);
-                    });
-                  });
-                }}
+                beforeInjection={(svg) => updateFillAttributeWithColor(svg, primaryColor)}
               />
               <ReactSVG
                 className="app__business-card__v3__contact__item__icon"
                 src={item.icon}
-                beforeInjection={(svg) => {
-                  const selectors = ["path", "rect", "circle"];
-
-                  selectors.forEach((selector) => {
-                    svg.querySelectorAll(selector).forEach((element) => {
-                      element.setAttribute("fill", secondaryColor);
-                    });
-                  });
-                }}
+                beforeInjection={(svg) => updateFillAttributeWithColor(svg, secondaryColor)}
               />
             </a>
           </div>
