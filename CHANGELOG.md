@@ -1,3 +1,10 @@
+## [1.11.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.10.0...v1.11.0) (2024-12-31)
+
+### Features
+
+* add website address variable to README for business card configuration ([2f87922](https://github.com/MSpiechowicz/business-card-style-website/commit/2f87922f83722422494a89516bc09f15d412a87c))
+* update the examples images ([1c8444f](https://github.com/MSpiechowicz/business-card-style-website/commit/1c8444f0a3a84692610996cc59bb6d975cd81374))
+
 ## [1.10.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.9.0...v1.10.0) (2024-12-31)
 
 ### Features
