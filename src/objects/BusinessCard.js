@@ -18,6 +18,7 @@ export class BusinessCard {
     this.github = import.meta.env.VITE_APP_BUSINESS_CARD_CONTACT_GITHUB || undefined;
     this.linkedIn = import.meta.env.VITE_APP_BUSINESS_CARD_CONTACT_LINKEDIN || undefined;
     this.email = import.meta.env.VITE_APP_BUSINESS_CARD_CONTACT_EMAIL || undefined;
+    this.website = import.meta.env.VITE_APP_BUSINESS_CARD_CONTACT_WEBSITE || undefined;
 
     this.contactItems = [
       {
@@ -48,6 +49,13 @@ export class BusinessCard {
         visible: this.email !== undefined,
         label: this.email,
       },
+      {
+        id: "website",
+        icon: `${this.assetsPath}/website.svg`,
+        link: this.website || undefined,
+        visible: this.website !== undefined,
+        label: this.website ? new URL(this.website).origin : undefined,
+      }
     ];
   }
 
@@ -65,6 +73,10 @@ export class BusinessCard {
 
   getEmailContactItem() {
     return this.contactItems.find((item) => item.id === "email");
+  }
+
+  getWebsiteContactItem() {
+    return this.contactItems.find((item) => item.id === "website");
   }
 
   getContactItems() {

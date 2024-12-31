@@ -16,6 +16,13 @@
 @use './styles/v2/app_business-card-v2-content.scss';
 @use './styles/v2/app_business-card-v2.scss';
 
+// V3
+@use './styles/v3/app_business-card-v3-contact.scss';
+@use './styles/v3/app_business-card-v3-container.scss';
+@use './styles/v3/app_business-card-v3-image.scss';
+@use './styles/v3/app_business-card-v3-content.scss';
+@use './styles/v3/app_business-card-v3.scss';
+
 html, body {
   margin: 0;
   padding: 0;

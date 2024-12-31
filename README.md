@@ -55,6 +55,10 @@ Currently available versions of the Business Card are:
 
 ![Business Card Version 2](public/examples/bs_v2.png)
 
+- **version 3**
+
+![Business Card Version 3](public/examples/bs_v3.png)
+
 ### Github Actions
 
 The project is using Github Actions for CI/CD. The workflow is triggered on every push to the main branch. The workflow is defined in the `.github/workflows/release.yml` file.
