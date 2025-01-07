@@ -1,14 +1,14 @@
 import PropTypes from "prop-types";
-import { ReactSVG } from "react-svg";
-import { updateFillAttributeWithColor } from "../utils/updateFillAttribute";
+import AppSvg from "../components/AppSvg";
 
 function AppBusinessCardV3Image({ primaryColor, backgroundImage }) {
   const svgElements = Array.from({ length: 2 }).map((_, index) => (
-    <ReactSVG
+    <AppSvg
       key={index}
-      className="app__business-card__v3__image__background"
       src={backgroundImage}
-      beforeInjection={(svg) => updateFillAttributeWithColor(svg, primaryColor)}
+      color={primaryColor}
+      className="app__business-card__v3__image__background"
+      withWrapper={false}
     />
   ));
 

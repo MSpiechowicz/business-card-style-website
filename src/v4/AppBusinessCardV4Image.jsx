@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
-import { ReactSVG } from "react-svg";
 import { updateFillAttributeWithColor } from "../utils/updateFillAttribute";
+import AppSvg from "../components/AppSvg";
 
 function AppBusinessCardV4Image({ primaryColor, image }) {
   return (
@@ -8,10 +8,11 @@ function AppBusinessCardV4Image({ primaryColor, image }) {
       aria-hidden="true"
       role="presentation"
     >
-      <ReactSVG
-        className="app__business-card__v4__image__background"
+      <AppSvg
         src={image}
-        beforeInjection={(svg) => updateFillAttributeWithColor(svg, primaryColor)}
+        color={primaryColor}
+        className="app__business-card__v4__image__background"
+        withWrapper={false}
         style={{
           border: `3px solid ${primaryColor}`,
         }}

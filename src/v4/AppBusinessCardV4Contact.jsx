@@ -1,21 +1,20 @@
 import PropTypes from "prop-types";
 import { useState } from "react";
-import { ReactSVG } from "react-svg";
+import AppSvg from "../components/AppSvg";
 import { hexToRgba } from "../utils/hexToRgba";
-import { updateFillAttributeWithColor } from "../utils/updateFillAttribute";
 
 function AppBusinessCardV4Contact({ primaryColor, contactItems }) {
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div
-      className="app__business-card__v4__contact"
-      role="list"
-      aria-labelledby="contact-info"
-    >
+    <div className="app__business-card__v4__contact" role="list" aria-labelledby="contact-info">
       {contactItems?.map((item, index) => {
         return (
-          <div key={index} className="app__business-card__v4__contact__item__container" role="listitem">
+          <div
+            key={index}
+            className="app__business-card__v4__contact__item__container"
+            role="listitem"
+          >
             <div
               key={item.id}
               className="app__business-card__v4__contact__item"
@@ -25,10 +24,11 @@ function AppBusinessCardV4Contact({ primaryColor, contactItems }) {
               }}
               aria-hidden="true"
             >
-              <ReactSVG
-                className="app__business-card__v4__contact__item__icon"
+              <AppSvg
                 src={item.icon}
-                beforeInjection={(svg) => updateFillAttributeWithColor(svg, primaryColor)}
+                color={primaryColor}
+                className="app__business-card__v4__contact__item__icon"
+                withWrapper={false}
               />
             </div>
             <a
