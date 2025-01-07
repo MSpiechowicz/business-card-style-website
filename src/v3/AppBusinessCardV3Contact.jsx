@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
-import { ReactSVG } from "react-svg";
-import { updateFillAttributeWithColor } from "../utils/updateFillAttribute";
+import AppSvg from "../components/AppSvg";
 
 function AppBusinessCardV3Contact({ primaryColor, secondaryColor, contactItems, leaf }) {
   return (
@@ -19,21 +18,17 @@ function AppBusinessCardV3Contact({ primaryColor, secondaryColor, contactItems, 
             }}
           >
             <a href={item.link} target="_blank" rel="noreferrer" aria-label={item.id}>
-              <ReactSVG
-                className="app__business-card__v3__contact__item__leaf__icon"
+              <AppSvg
                 src={leaf}
-                beforeInjection={(svg) => updateFillAttributeWithColor(svg, primaryColor)}
-                loading="eager"
-                wrapper="span"
-                preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${primaryColor}"`)}
+                color={primaryColor}
+                className="app__business-card__v3__contact__item__leaf__icon"
+                withWrapper={false}
               />
-              <ReactSVG
-                className="app__business-card__v3__contact__item__icon"
+              <AppSvg
                 src={item.icon}
-                beforeInjection={(svg) => updateFillAttributeWithColor(svg, secondaryColor)}
-                loading="eager"
-                wrapper="span"
-                preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${secondaryColor}"`)}
+                color={secondaryColor}
+                className="app__business-card__v3__contact__item__icon"
+                withWrapper={false}
               />
             </a>
           </div>

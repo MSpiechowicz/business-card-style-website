@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
-import { ReactSVG } from "react-svg";
-import { updateFillAttributeWithColor } from "../utils/updateFillAttribute";
+import AppSvg from "../components/AppSvg";
 
 function AppBusinessCardV4Content({ title, subTitle, dot, primaryColor }) {
   return (
@@ -13,17 +12,7 @@ function AppBusinessCardV4Content({ title, subTitle, dot, primaryColor }) {
       >
         {String(title).toUpperCase()}
       </h1>
-      <ReactSVG
-        src={dot}
-        beforeInjection={(svg) => {
-          updateFillAttributeWithColor(svg, primaryColor);
-          svg.setAttribute("aria-hidden", "true");
-          svg.setAttribute("role", "presentation");
-        }}
-        loading="eager"
-        wrapper="span"
-        preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${primaryColor}"`)}
-      />
+      <AppSvg src={dot} color={primaryColor} withWrapper={false} />
       <h2
         aria-label="Business Card Sub Title"
         style={{
