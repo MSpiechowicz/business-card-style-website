@@ -28,6 +28,9 @@ function AppBusinessCardV2Contact({ primaryColor, secondaryColor, contactItems }
                 className="app__business-card__v2__contact__item__icon"
                 src={item.icon}
                 beforeInjection={(svg) => updateFillAttributeWithColor(svg, secondaryColor)}
+                loading="eager"
+                wrapper="span"
+                preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${secondaryColor}"`)}
               />
               <a href={item.link} target="_blank" rel="noreferrer" aria-label={item.id}>
                 {String(item.label)}

@@ -9,6 +9,9 @@ function AppBusinessCardV3Image({ primaryColor, backgroundImage }) {
       className="app__business-card__v3__image__background"
       src={backgroundImage}
       beforeInjection={(svg) => updateFillAttributeWithColor(svg, primaryColor)}
+      loading="eager"
+      wrapper="span"
+      preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${primaryColor}"`)}
     />
   ));
 

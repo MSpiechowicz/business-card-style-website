@@ -15,6 +15,9 @@ function AppBusinessCardV4Image({ primaryColor, image }) {
         style={{
           border: `3px solid ${primaryColor}`,
         }}
+        loading="eager"
+        wrapper="span"
+        preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${primaryColor}"`)}
       />
     </div>
   );

@@ -23,6 +23,9 @@ function AppBusinessCardV1Contact({ primaryColor, contactItems }) {
                 className="app__business-card__v1__contact__item__icon"
                 src={item.icon}
                 beforeInjection={(svg) => updateFillAttributeWithColor(svg, primaryColor)}
+                loading="eager"
+                wrapper="span"
+                preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${primaryColor}"`)}
               />
             </a>
           </div>

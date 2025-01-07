@@ -23,11 +23,17 @@ function AppBusinessCardV3Contact({ primaryColor, secondaryColor, contactItems, 
                 className="app__business-card__v3__contact__item__leaf__icon"
                 src={leaf}
                 beforeInjection={(svg) => updateFillAttributeWithColor(svg, primaryColor)}
+                loading="eager"
+                wrapper="span"
+                preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${primaryColor}"`)}
               />
               <ReactSVG
                 className="app__business-card__v3__contact__item__icon"
                 src={item.icon}
                 beforeInjection={(svg) => updateFillAttributeWithColor(svg, secondaryColor)}
+                loading="eager"
+                wrapper="span"
+                preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${secondaryColor}"`)}
               />
             </a>
           </div>

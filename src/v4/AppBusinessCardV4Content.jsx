@@ -20,6 +20,9 @@ function AppBusinessCardV4Content({ title, subTitle, dot, primaryColor }) {
           svg.setAttribute("aria-hidden", "true");
           svg.setAttribute("role", "presentation");
         }}
+        loading="eager"
+        wrapper="span"
+        preProcessor={(code) => code.replace(/fill=".*?"/g, `fill="${primaryColor}"`)}
       />
       <h2
         aria-label="Business Card Sub Title"
