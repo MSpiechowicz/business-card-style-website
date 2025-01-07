@@ -1,3 +1,9 @@
+## [1.13.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.12.0...v1.13.0) (2025-01-07)
+
+### Features
+
+* enhance business card components with eager loading and SVG fill processing ([4dbfb94](https://github.com/MSpiechowicz/business-card-style-website/commit/4dbfb947ce7df3567e41fa2deb593970feacd045))
+
 ## [1.12.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.11.0...v1.12.0) (2025-01-07)
 
 ### Features
