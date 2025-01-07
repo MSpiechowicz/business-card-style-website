@@ -1,3 +1,11 @@
+## [1.12.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.11.0...v1.12.0) (2025-01-07)
+
+### Features
+
+* add version 4 of the business card to README and update asset paths in BusinessCardV3.js ([0318d22](https://github.com/MSpiechowicz/business-card-style-website/commit/0318d22166a4c23300ce19c3dcbb829e06cc0fa0))
+* add version 4 of the business card with new styles and assets ([31929ee](https://github.com/MSpiechowicz/business-card-style-website/commit/31929eec15f1b5ad13d1fda08640e2e076a4f58c))
+* adjust margins, widths, and font sizes in business card components ([ed1604b](https://github.com/MSpiechowicz/business-card-style-website/commit/ed1604bffc9c895ca28db7c68071a21330713a71))
+
 ## [1.11.0](https://github.com/MSpiechowicz/business-card-style-website/compare/v1.10.0...v1.11.0) (2024-12-31)
 
 ### Features
