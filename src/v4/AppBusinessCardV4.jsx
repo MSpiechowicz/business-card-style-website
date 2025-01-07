@@ -9,13 +9,19 @@ function AppBusinessCardV4() {
   return (
     <div className="app__business-card__v4__container">
       <div className="app__business-card__v4">
-        <div className="app__business-card__v4__left">
+        <div
+          className="app__business-card__v4__left"
+          style={{ backgroundColor: BusinessCard.primaryColor }}
+        >
           <AppBusinessCardV4Image
             primaryColor={BusinessCard.primaryColor}
             image={BusinessCard.user}
           />
         </div>
-        <div className="app__business-card__v4__right">
+        <div
+          className="app__business-card__v4__right"
+          style={{ border: `1px solid ${BusinessCard.primaryColor}`, borderLeft: "none" }}
+        >
           <AppBusinessCardV4Content
             title={BusinessCard.title}
             subTitle={BusinessCard.subTitle}
@@ -24,7 +30,6 @@ function AppBusinessCardV4() {
           />
           <AppBusinessCardV4Contact
             primaryColor={BusinessCard.primaryColor}
-            secondaryColor={BusinessCard.secondaryColor}
             contactItems={BusinessCard.getContactItems()}
           />
         </div>

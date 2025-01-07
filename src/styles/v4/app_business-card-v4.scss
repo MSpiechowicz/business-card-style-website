@@ -5,15 +5,12 @@
 
   &__left {
     width: 18%;
-    background-color: black;
     position: relative;
   }
 
   &__right {
     width: 82%;
     height: 90%;
-    border: 1px solid black;
-    border-left: none;
     margin-block: 1rem;
     margin-right: 1rem;
     display: flex;
