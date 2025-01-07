@@ -1,0 +1,27 @@
+@use '../app_business-card.scss';
+
+.app__business-card__v4 {
+  @extend %app__business-card;
+
+  &__left {
+    width: 20%;
+    background-color: black;
+    position: relative;
+  }
+
+  &__right {
+    width: 80%;
+    border: 1px solid black;
+    border-left: none;
+    margin-block: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .app__business-card__v4 {
+    width: 100%;
+  }
+}

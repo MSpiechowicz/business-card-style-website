@@ -1,0 +1,60 @@
+.app__business-card__v4__contact {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  gap: 0.5rem;
+
+  &__item__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__item {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+     svg {
+      width: 0.85rem;
+      height: 0.85rem;
+    }
+  }
+
+  a {
+    text-decoration-color: rgba($color: #000, $alpha: 0);
+    text-underline-offset: 6px;
+    text-decoration-thickness: 1px;
+    transition: text-decoration-color 300ms ease;
+    color: #000;
+    font-size: 1rem;
+  }
+
+  a:hover {
+    text-decoration-color: rgba($color: #000, $alpha: 1);
+  }
+}
+
+@media (max-width: 600px) {
+  .app__business-card__v4__contact {
+    margin-top: 0.5rem;
+
+    &__item {
+      width: 36px;
+
+      a {
+        .app__business-card__v4__contact__item__icon {
+          width: 18px;
+        }
+      }
+    }
+  }
+}

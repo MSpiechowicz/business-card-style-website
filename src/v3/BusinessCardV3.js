@@ -5,8 +5,8 @@ class BusinessCardV3 extends BusinessCard {
   constructor() {
     super();
 
-    this.leaf = `${BusinessCardContactsAssetsPaths.v3}/leaf.svg`;
-    this.backgroundImage = `${BusinessCardContactsAssetsPaths.v3}/backgroundImage.svg`;
+    this.leaf = `${BusinessCardContactsAssetsPaths.v4}/leaf.svg`;
+    this.backgroundImage = `${BusinessCardContactsAssetsPaths.v4}/backgroundImage.svg`;
   }
 }
 
