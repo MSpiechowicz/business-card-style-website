@@ -19,7 +19,6 @@
 
   &__background {
     padding: 0.5rem;
-
     background-color: white;
     border-radius: 50%;
     border: 3px solid black;
@@ -28,8 +27,16 @@
 
 @media (max-width: 600px) {
   .app__business-card__v4__image {
-    //&__background:nth-child(2) {
-    //  display: none;
-    //}
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+
+    svg {
+      display: none;
+    }
+
+    &__background {
+      display: none;
+    }
   }
 }
