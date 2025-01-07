@@ -13,7 +13,7 @@ function AppBusinessCardV4Content({ title, subTitle, dot, primaryColor }) {
         {String(title).toUpperCase()}
       </h1>
       <ReactSVG src={dot} />
-      <h2 aria-label="Business Card Sub Title">{subTitle}</h2>
+      <h2 aria-label="Business Card Sub Title">{String(subTitle).toUpperCase()}</h2>
     </div>
   );
 }

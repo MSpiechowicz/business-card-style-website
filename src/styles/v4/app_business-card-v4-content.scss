@@ -1,14 +1,15 @@
 .app__business-card__v4__content {
   width: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: row;
-  margin-left: 8rem;
-  margin-top: 1.5rem;
+  margin-left: 5.5rem;
+  //margin-top: 1.5rem;
   display: flex;
   align-items: center;
 
   h1 {
-    font-size: 30px;
+    font-size: clamp(1rem, calc(1rem + 2vw), 1.5rem);
     font-weight: 800;
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@
 
   h2 {
     color: #000000;
-    font-size: 26px;
+    font-size: 0.95rem;
     font-weight: 400;
   }
 
