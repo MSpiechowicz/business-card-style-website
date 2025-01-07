@@ -1,0 +1,26 @@
+@use '../app_business-card.scss';
+
+.app__business-card__v4 {
+  @extend %app__business-card;
+
+  &__left {
+    width: 18%;
+    position: relative;
+  }
+
+  &__right {
+    width: 82%;
+    height: 90%;
+    margin-block: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .app__business-card__v4 {
+    width: 100%;
+  }
+}
