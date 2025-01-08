@@ -2,10 +2,10 @@
   width: 100%;
   height: fit-content;
   display: flex;
-  flex-direction: row;
-  margin-left: 5rem;
+  flex-direction: column;
+  margin-left: 7rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 
   h1 {
     font-size: clamp(1.25rem, calc(1.25rem + 2vw), 1.5rem);
@@ -21,6 +21,7 @@
 
   svg {
     width: 34px;
+    display: none;
   }
 }
 
