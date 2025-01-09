@@ -4,9 +4,13 @@
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
-  width: 550px;
+  width: 600px;
+  height: 300px;
 
   img {
     opacity: 3%;
+    object-fit: cover;
+    object-position: center;
+    aspect-ratio: 16/9;
   }
 }
